@@ -2,11 +2,11 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: #6565ff;
+  background: #BF1919;
 }
 
 header {
-  background: #0404e2;
+  background: #52010D;
   color: white;
   text-align: center;
   padding: 1rem;
@@ -14,10 +14,10 @@ header {
 
 main {
   max-width: 800px;
-  margin: 20px auto;
+  margin: 30px auto;
   background: white;
-  padding: 20px;
-  border-radius: 10px;
+  padding: 30px;
+  border-radius: 20px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
