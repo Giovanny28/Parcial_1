@@ -40,18 +40,18 @@ h2 {
 }
 
 .comment-form button {
-  background: #7f00b2;
+  background: #2118A3;
   color: white;
   border: none;
   cursor: pointer;
 }
 
 .comment-form button:hover {
-  background: #ab3ed8;
+  background: #4D46C7;
 }
 
 .comment-form .btn-delete {
-  background: #ff5aa4;
+  background: #D97118;
 }
 
 .comment-form .btn-delete:hover {
