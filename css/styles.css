@@ -14,7 +14,7 @@ header {
 
 main {
   max-width: 800px;
-  margin: 30px auto;
+  margin: 60px auto; /* margen aumentado */
   background: white;
   padding: 30px;
   border-radius: 20px;
@@ -102,10 +102,7 @@ h2 {
   background: red;
 }
 
-
-.btn-remove:hover {
-  background: red;
-}
+/* Vista previa de imagen */
 #preview {
   max-width: 200px;
   display: none;
@@ -115,3 +112,4 @@ h2 {
   box-shadow: 0 2px 5px rgba(0,0,0,0.15);
   text-align: center;
 }
+
