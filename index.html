@@ -15,7 +15,7 @@
   <main>
     <article>
       <h2>Bienvenidos</h2>
-      <p>Este es un blog de programacion para un examen parcial.</p>
+      <p>Este es un blog de programación para un examen parcial.</p>
     </article>
 
     <section class="comment-form">
@@ -23,6 +23,8 @@
       <input type="text" id="nombre" placeholder="Tu nombre" required>
       <textarea id="mensaje" rows="3" placeholder="Escribe tu comentario" required></textarea>
       <input type="file" id="imagen" accept="image/*">
+      <img id="preview" width="150" style="display:none; border: 1px solid #ccc; margin-top: 10px;">
+      <br>
       <button onclick="agregarComentario()">Publicar comentario</button>
       <button onclick="borrarComentarios()" class="btn-delete">Borrar todos los comentarios</button>
     </section>
@@ -35,3 +37,4 @@
   <script src="js/script.js"></script>
 </body>
 </html>
+
